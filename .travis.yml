@@ -1,7 +1,7 @@
 deploy: 
     provider: script
     script: "npm test"
-    true: 
+    on: 
       branch: master
 install: "npm install"
 language: node_js
