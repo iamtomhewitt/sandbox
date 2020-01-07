@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "release": "release-it --ci"
   },
+  "npm": {
+    "publish": false
+  },
   "repository": {
     "type": "git",
     "url": "git+https://iamtomhewitt@github.com/iamtomhewitt/sandbox.git"
