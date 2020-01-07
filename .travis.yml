@@ -2,7 +2,7 @@ deploy:
     provider: script
     script: "npm test"
     on: 
-      branch: develop
+      branch: master
 install: "npm install"
 language: node_js
 node_js: "8.16.2"
