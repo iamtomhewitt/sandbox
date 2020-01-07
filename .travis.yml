@@ -1,6 +1,6 @@
 deploy: 
     provider: script
-    script: "npm test"
+    script: "npm run release"
     on: 
       branch: master
 install: "npm install"
