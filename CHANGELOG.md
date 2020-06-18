@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1-BETA](https://github.com/iamtomhewitt/sandbox/compare/v1.1.0-BETA...v1.1.1-BETA) (2020-06-18)
+
+
+### Bug Fixes
+
+* beta fix ([7184d12](https://github.com/iamtomhewitt/sandbox/commit/7184d12ce9a1265697b08fffad225f280e777868))
+
 ## [1.1.0-BETA](https://github.com/iamtomhewitt/sandbox/compare/v1.1.0-beta.1...v1.1.0-BETA) (2020-06-18)
 
 
