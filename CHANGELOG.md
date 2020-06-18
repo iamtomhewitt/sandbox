@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/iamtomhewitt/sandbox/compare/v1.1.1-BETA...v1.1.1) (2020-06-18)
+
 ### [1.1.1-BETA](https://github.com/iamtomhewitt/sandbox/compare/v1.1.0-BETA...v1.1.1-BETA) (2020-06-18)
 
 
