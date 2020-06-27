@@ -1,0 +1,24 @@
+{
+	"name": "sandbox",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"release": "github-releaser",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iamtomhewitt/sandbox.git",
+		"apiUrl": "https://api.github.com/repos/iamtomhewitt/sandbox"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/iamtomhewitt/sandbox/issues"
+	},
+	"homepage": "https://github.com/iamtomhewitt/sandbox#readme",
+	"dependencies": {
+		"github-releaser": "^1.0.6"
+	}
+}
