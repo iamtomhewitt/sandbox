@@ -1,24 +1,68 @@
 {
-	"name": "sandbox",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"release": "github-releaser",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/iamtomhewitt/sandbox.git",
-		"apiUrl": "https://api.github.com/repos/iamtomhewitt/sandbox"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/iamtomhewitt/sandbox/issues"
-	},
-	"homepage": "https://github.com/iamtomhewitt/sandbox#readme",
-	"dependencies": {
-		"github-releaser": "^1.0.6"
-	}
+    "name": "github-releaser",
+    "version": "1.0.6",
+    "description": "Bump version, generate changelog with issue links, commit, tag, push and create Github release, all automatically.",
+    "scripts": {
+        "main": "index.js",
+        "test": "mocha 'tests/**/*.js' --exit",
+        "lint": "eslint --ignore-path .gitignore .",
+        "lint-fix": "npm run lint -- --fix",
+        "pretest": "eslint --ignore-path .gitignore .",
+        "release": "standard-version",
+        "reset-local-tags": "git tag -l | xargs git tag -d && git fetch --tags",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iamtomhewitt/github-releaser.git",
+        "apiUrl": "https://api.github.com/repos/iamtomhewitt/github-releaser"
+    },
+    "author": "Tom Hewitt",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/iamtomhewitt/github-releaser/issues"
+    },
+    "homepage": "https://github.com/iamtomhewitt/github-releaser#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-conventional": "^8.3.4",
+        "cz-conventional-changelog": "^2.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-config-node": "^4.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.20.0",
+        "eslint-plugin-react-hooks": "^2.5.1",
+        "husky": "^1.1.2",
+        "standard-version": "^8.0.0",
+        "validate-commit-msg": "^2.14.0"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "conventional-recommended-bump": "^6.0.9",
+        "current-git-branch": "^1.1.0",
+        "figures": "^3.2.0",
+        "node-fetch": "^2.6.0",
+        "prompt": "^1.0.0",
+        "simple-git": "^2.10.0"
+    },
+    "preferGlobal": true,
+    "bin": {
+        "github-releaser": "index.js"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
