@@ -1,11 +1,11 @@
 {
     "name": "sandbox",
-    "version": "1.0.7-BETA",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "release": "github-releaser",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "github-releaser"
     },
     "repository": {
         "type": "git",
@@ -19,6 +19,6 @@
     },
     "homepage": "https://github.com/iamtomhewitt/sandbox#readme",
     "dependencies": {
-        "github-releaser": "^1.0.7-3"
+        "github-releaser": "^1.0.8"
     }
 }
