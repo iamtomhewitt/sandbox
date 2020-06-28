@@ -1,6 +1,6 @@
 {
     "name": "sandbox",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -19,7 +19,6 @@
     },
     "homepage": "https://github.com/iamtomhewitt/sandbox#readme",
     "dependencies": {
-        "conventional-changelog": "^3.1.21",
-        "github-releaser": "^1.0.7"
+        "github-releaser": "^1.0.7-1"
     }
 }
