@@ -1,3 +1,9 @@
+## 2.1.7 (31/12/2020) 
+
+
+There are no issues in this release.
+
+
 ## 2.1.6-BETA (13/07/2020) 
 
 
