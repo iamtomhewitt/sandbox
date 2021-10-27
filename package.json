@@ -1,11 +1,11 @@
 {
     "name": "sandbox",
-    "version": "2.1.9",
+    "version": "2.1.14",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "release": "github-releaser"
+        "release": "cp -R ../github-releaser/src . && cp -R ../github-releaser/node_modules . && cp ../github-releaser/index.js index.js && node ./index.js"
     },
     "repository": {
         "type": "git",
