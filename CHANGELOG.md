@@ -1,3 +1,17 @@
+## 2.1.15 (27/10/2021) 
+
+
+### Issues in this release:
+
+* [#25](https://github.com/iamtomhewitt/sandbox/pull/25) - chore(deps): bump ansi-regex from 5.0.0 to 5.0.1
+* [#24](https://github.com/iamtomhewitt/sandbox/pull/24) - chore(deps): bump i from 0.3.6 to 0.3.7
+* [#23](https://github.com/iamtomhewitt/sandbox/pull/23) - chore(deps): bump path-parse from 1.0.6 to 1.0.7
+* [#22](https://github.com/iamtomhewitt/sandbox/pull/22) - chore(deps): bump lodash from 4.17.20 to 4.17.21
+* [#21](https://github.com/iamtomhewitt/sandbox/pull/21) - chore(deps): bump hosted-git-info from 2.8.8 to 2.8.9
+* [#20](https://github.com/iamtomhewitt/sandbox/pull/20) - chore(deps): bump handlebars from 4.7.6 to 4.7.7
+
+
+
 ## 2.1.9 (31/12/2020) 
 
 
