@@ -1,3 +1,12 @@
+## 2.1.24 (29/10/2021) 
+
+
+### Issues in this release:
+
+* [#9](https://github.com/iamtomhewitt/sandbox/issues/9) - Test issue
+
+
+
 ## 2.1.23 (27/10/2021) 
 
 
